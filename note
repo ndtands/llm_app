@@ -1,0 +1,14 @@
+- Ghép table từ nhiều trang
+- xử lý table
+- key openAI
+    <!-- # Prepare the input for ChatGPT API
+    input_data = f"Assume that you are an expert in the HR domain and need to review and evaluate a candidate's resume. Given the job description is: {jd_text} and the extracted CV information in a JSON string is: {cv_data}. Give feedback on how to improve the CV and skills to make them suitable for this job in {language}"
+    openai.api_key = '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'
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[
+        {"role": "user", "content": input_data}
+        ],
+        temperature=0
+    )
+    return response.choices[0].message['content'] -->
